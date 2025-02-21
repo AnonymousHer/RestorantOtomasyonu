@@ -1,0 +1,25 @@
+/* Social media links styling */
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #fff;
+    color:rgb(0, 128, 255) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

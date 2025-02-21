@@ -1,0 +1,120 @@
+/* Mobil için özel ayarlar */
+@media (max-width: 768px) {
+    .menu-item img {
+        height: 140px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+}
+
+/* Tablet için özel ayarlar */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .menu-item img {
+        height: 160px;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.res {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.res h1 {
+    color: #d32f2f;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.res label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.res label:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.res img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.res select {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.res select:hover {
+    border-color: #d32f2f;
+}
+
+.res select:focus {
+    outline: none;
+    border-color: #d32f2f;
+    box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.1);
+}
+
+/* Responsive tasarım için medya sorguları */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .res {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+/* Seçim yapıldığında vurgulama efekti */
+.res select:not([value=""]) {
+    background-color: #f8f9fa;
+    border-color: #d32f2f;
+}
+
+/* Ürün kartı hover efekti */
+.res label {
+    background: #fff;
+    border: 1px solid transparent;
+}
+
+.res label:hover {
+    border-color: #d32f2f;
+    background: #fff9f9;
+}
