@@ -6,7 +6,7 @@ Restorant Otomasyonu, restoran işletmeleri için sipariş takibi, masa yönetim
 
 ## Demo
 
-Projeyi çalışırken görmek için bir demo videosu veya ekran görüntüsü ekleyebilirsiniz.
+Projeyi çalışırken görmek için izleyin
 
 https://github.com/user-attachments/assets/0f7249bb-b04b-4ed2-af89-65058751a93d
 
