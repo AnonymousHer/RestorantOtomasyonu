@@ -8,6 +8,8 @@ Restorant Otomasyonu, restoran işletmeleri için sipariş takibi, masa yönetim
 
 Projeyi çalışırken görmek için bir demo videosu veya ekran görüntüsü ekleyebilirsiniz.
 
+https://github.com/user-attachments/assets/0f7249bb-b04b-4ed2-af89-65058751a93d
+
 ## Kullanılan Teknolojiler ve Diller
 
 - **PHP**: Sunucu tarafı uygulama mantığı ve veri işlemleri.
